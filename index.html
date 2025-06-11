@@ -1,65 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flippkart | Kurti</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="navbar">
-      <div class="logo">Flippkart</div>
-      <input type="text" placeholder="Search for products, brands and more">
-      <button class="login-btn">Login</button>
-    </div>
-  </header>
-
-  <main class="product-container">
-    <div class="left-panel">
-      <div class="thumbnail-column">
-        <img src="IMAGE/thumb1.jpg" onclick="changeMain('IMAGE/thumb1.jpg')">
-        <img src="IMAGE/thumb2.jpg" onclick="changeMain('IMAGE/thumb2.jpg')">
-        <img src="IMAGE/thumb3.jpg" onclick="changeMain('IMAGE/thumb3.jpg')">
-      </div>
-      <div class="main-image">
-        <img id="main-product-img" src="IMAGE/main.jpg">
-      </div>
-    </div>
-
-    <div class="right-panel">
-      <h2>Anushansa Women Floral Print Viscose Rayon Anarkali Kurta (Green)</h2>
-      <p class="brand">Brand: Anushansa</p>
-      <p class="price">₹367 <span class="strike">₹999</span> <span class="discount">63% off</span></p>
-
-      <p class="rating">⭐ 3.8 (57,922 ratings)</p>
-
-      <div class="sizes">
-        <p>Size:</p>
-        <button>XS</button>
-        <button>S</button>
-        <button>M</button>
-        <button>L</button>
-        <button>XL</button>
-        <button>XXL</button>
-      </div>
-
-      <div class="offers">
-        <p><strong>Available Offers</strong></p>
-        <ul>
-          <li>💳 5% Unlimited Cashback on Flipkart Axis Bank Credit Card</li>
-          <li>💳 10% off on SBI Credit Card EMI</li>
-          <li>🔥 Extra 16% off (Special Price)</li>
-        </ul>
-      </div>
-
-      <div class="buttons">
-        <button class="add-to-cart">ADD TO CART</button>
-        <button class="buy-now">BUY NOW</button>
-      </div>
-    </div>
-  </main>
-
-  <script src="script.js"></script>
-</body>
-</html>
+.product-image {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

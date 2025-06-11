@@ -1,36 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Payment Page</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #fff;
-      text-align: center;
-      padding: 50px;
-    }
-    h2 { color: #2874f0; }
-    .scanner {
-      width: 300px;
-      height: 300px;
-      margin: 20px auto;
-      background: url('IMAGE/qr.png') no-repeat center center;
-      background-size: contain;
-    }
-    p { font-size: 16px; }
-    .timer {
-      color: red;
-      font-size: 20px;
-      margin-top: 10px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment - Flippkart</title>
 </head>
-<body>
-  <h2>Make Payment</h2>
-  <div class="scanner"></div>
-  <p>UPI ID: flippkart@upi</p>
-  <p>Bank A/C: 1234567890 | IFSC: SBIN000000</p>
-  <p class="timer">Please pay within 5 minutes ⏳</p>
+<body style="font-family: Arial; background: #f1f3f6; padding: 20px;">
+  <h1>Payment Page</h1>
+  <p>Scan the UPI QR code or use details below to make payment:</p>
+  <ul>
+    <li><strong>UPI ID:</strong> flippkart@upi</li>
+    <li><strong>Phone:</strong> 9876543210</li>
+    <li><strong>Email:</strong> support@flippkart.com</li>
+  </ul>
+  <img src="IMAGE/paymentqr.png" alt="Payment QR" style="max-width: 250px;">
 </body>
 </html>
