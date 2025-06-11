@@ -3,32 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FLIPPKART - Watch</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Flippkart - Kurta</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
-    <div class="logo">FLIPPKART</div>
-    <input type="text" class="search-bar" placeholder="Search for products...">
+    <h1>FLIPPKART</h1>
   </header>
 
-  <main class="product-container">
-    <div class="product-image">
-      <img src="images/watch.png" alt="Lois Caron Watch" />
-    </div>
-    <div class="product-details">
-      <h1>Lois Caron LCS-8190 Trending Day & Date Functioning Watch</h1>
-      <p class="price">₹349 <span class="original-price">₹1,999</span> <span class="discount">82% off</span></p>
-      <p><strong>Delivery:</strong> Enter address during checkout</p>
-      
-      <form action="payment.html">
-        <input type="text" placeholder="Full Name" required>
-        <input type="text" placeholder="Address" required>
-        <input type="tel" placeholder="Phone Number" required>
-        <button type="submit">Place Order</button>
-      </form>
+  <main>
+    <div class="product-container">
+      <img src="IMAGE/kurta.jpg" alt="Kurta Image"/>
+      <div class="details">
+        <h2>Anushansa Women Floral Print Anarkali Kurta</h2>
+        <p><strong>₹499</strong> <span class="original">₹1,299</span> <span class="offer">(61% OFF)</span></p>
+        <p>Size: M, L, XL, XXL</p>
+        <p>Color: Peach</p>
+        <p>Material: Rayon</p>
 
-      <p class="contact">📧 support@flippkart.shop | ☎️ +91 99999 88888</p>
+        <form action="payment.html" method="get">
+          <input type="text" name="name" placeholder="Your Name" required><br>
+          <input type="text" name="address" placeholder="Delivery Address" required><br>
+          <input type="tel" name="phone" placeholder="Phone Number" required><br>
+          <button type="submit">Buy Now</button>
+        </form>
+
+        <p class="contact">For help: leocreater0@example.com | +91-9876543210</p>
+      </div>
     </div>
   </main>
 </body>

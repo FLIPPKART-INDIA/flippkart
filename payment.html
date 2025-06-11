@@ -2,26 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Payment - FLIPPKART</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Payment Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+    h2 { color: #2874f0; }
+    .scanner {
+      width: 300px;
+      height: 300px;
+      margin: 20px auto;
+      background: url('IMAGE/qr.png') no-repeat center center;
+      background-size: contain;
+    }
+    p { font-size: 16px; }
+    .timer {
+      color: red;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-  <main class="product-container">
-    <div class="product-details">
-      <h1>Make Payment</h1>
-      <p><strong>Pay to:</strong></p>
-      <ul>
-        <li><strong>UPI:</strong> flippkart@ybl</li>
-        <li><strong>Bank:</strong> HDFC BANK - 1234567890</li>
-        <li><strong>IFSC:</strong> HDFC0001234</li>
-      </ul>
-
-      <img src="images/scanner.png" alt="QR Scanner" style="width:250px;margin:20px 0;" />
-
-      <p style="color:red;">Pay within <strong>5 minutes</strong> to confirm your order!</p>
-
-      <p class="contact">📧 support@flippkart.shop | ☎️ +91 99999 88888</p>
-    </div>
-  </main>
+  <h2>Make Payment</h2>
+  <div class="scanner"></div>
+  <p>UPI ID: flippkart@upi</p>
+  <p>Bank A/C: 1234567890 | IFSC: SBIN000000</p>
+  <p class="timer">Please pay within 5 minutes ⏳</p>
 </body>
 </html>
