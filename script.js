@@ -1,3 +1,3 @@
-function changeMain(src) {
-  document.getElementById("main-product-img").src = src;
+function buyNow() {
+  window.location.href = "payment.html";
 }
