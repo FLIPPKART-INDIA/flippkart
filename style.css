@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f1f3f6;
+}
+
+header {
+  background: #2874f0;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header input {
+  padding: 6px;
+  width: 50%;
+  border-radius: 4px;
+  border: none;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-container img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.details {
+  margin-left: 30px;
+}
+
+.details h2 {
+  margin-top: 0;
+}
+
+.offer {
+  color: green;
+}
+
+form input {
+  display: block;
+  margin: 10px 0;
+  padding: 6px;
+  width: 80%;
+}
+
+button {
+  background-color: #ff9f00;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+}
